@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuj Chaudhary | Professional CV - Robotics, Humanoid & UAV Engineer</title>
+  <meta name="description" content="Official Curriculum Vitae of Anuj Chaudhary - R&D Associate at Robotics Association of Nepal (RAN), Certified Unitree Robotics Engineer (G1, Go2), Gold Medalist UAV Engineer, ROS2 & Embedded Systems Developer.">
+  <meta name="keywords" content="Anuj Chaudhary, Anuj Chaudhary CV, Anuj Chaudhary Resume, Robotics Engineer Nepal, Unitree Robotics Nepal, Drone Specialist Nepal, Electronics Engineer Nepal">
+  <link rel="canonical" href="https://anujchaudhary.com.np/cv.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Anuj Chaudhary | Professional CV - Robotics & UAV Engineer">
+  <meta property="og:description" content="Certified Unitree Robotics Engineer (G1 Humanoid, Go2), UAV Specialist, and R&D Associate at Robotics Association of Nepal.">
+  <meta property="og:image" content="https://anujchaudhary.com.np/assets/images/anuj-profile.jpg">
+  <meta property="og:url" content="https://anujchaudhary.com.np/cv.html">
+  <meta property="og:type" content="profile">
+
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Anuj Chaudhary",
+    "jobTitle": "Robotics & UAV Research & Development Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Robotics Association of Nepal (RAN)"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Cosmos College of Management and Technology"
+    },
+    "url": "https://anujchaudhary.com.np/cv.html",
+    "sameAs": [
+      "https://www.linkedin.com/in/anuj-chaudhary-1424b9237",
+      "https://github.com/D4YDR3AM3R"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lalitpur / Dang",
+      "addressCountry": "Nepal"
+    },
+    "email": "anujchaudhary508@gmail.com",
+    "telephone": "+9779817432137"
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --accent: #2563eb;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --border: #e2e8f0;
+      --tag-bg: #f1f5f9;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      line-height: 1.55;
+      font-size: 14px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* CV Control Bar */
+    .cv-actions-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(15, 23, 42, 0.92);
+      backdrop-filter: blur(12px);
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+
+    .cv-actions-bar a, .cv-actions-bar button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 13px;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+    }
+
+    .btn-back {
+      background: rgba(255,255,255,0.12);
+      color: #f1f5f9;
+    }
+    .btn-back:hover {
+      background: rgba(255,255,255,0.22);
+    }
+
+    .btn-print {
+      background: #0284c7;
+      color: white;
+    }
+    .btn-print:hover {
+      background: #0369a1;
+      transform: translateY(-1px);
+    }
+
+    .btn-pdf {
+      background: #10b981;
+      color: white;
+    }
+    .btn-pdf:hover {
+      background: #059669;
+    }
+
+    .action-group {
+      display: flex;
+      gap: 12px;
+    }
+
+    /* Resume Document Wrapper */
+    .resume-container {
+      max-width: 900px;
+      margin: 32px auto;
+      background: var(--bg-card);
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      padding: 48px;
+    }
+
+    /* Header */
+    .resume-header {
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 24px;
+    }
+
+    .header-main h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #0f172a;
+      text-transform: uppercase;
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+
+    .header-main .subtitle {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+    }
+
+    .header-contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      font-size: 12.5px;
+      color: var(--text-muted);
+    }
+
+    .header-contact span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .header-contact a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .header-contact a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    .header-badge {
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .gold-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #fef3c7;
+      border: 1px solid #f59e0b;
+      color: #92400e;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 11.5px;
+    }
+
+    /* Section Styling */
+    .resume-section {
+      margin-bottom: 24px;
+    }
+
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 14px;
+      font-weight: 800;
+      color: #0f172a;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1.5px solid var(--border);
+      padding-bottom: 4px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .section-title i {
+      color: var(--primary);
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Summary */
+    .summary-text {
+      font-size: 13.5px;
+      color: #334155;
+      line-height: 1.65;
+      text-align: justify;
+    }
+
+    /* Experience / Education items */
+    .timeline-item {
+      margin-bottom: 18px;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+
+    .item-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .item-company {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+
+    .item-date {
+      font-size: 12px;
+      font-weight: 600;
+      color: #64748b;
+      white-space: nowrap;
+    }
+
+    ul.bullet-list {
+      padding-left: 18px;
+      color: #334155;
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    ul.bullet-list li {
+      margin-bottom: 5px;
+      line-height: 1.5;
+    }
+
+    ul.bullet-list li strong {
+      color: #0f172a;
+    }
+
+    /* Unitree Feature Box */
+    .unitree-feature {
+      background: linear-gradient(135deg, #f0fdf4 0%, #e0f2fe 100%);
+      border: 1.5px solid #0284c7;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-bottom: 18px;
+    }
+
+    .unitree-feature-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .unitree-badge {
+      background: #0284c7;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px 24px;
+    }
+
+    .skill-category {
+      font-size: 13px;
+    }
+
+    .skill-category-title {
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .skill-tag {
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 11.5px;
+      color: #334155;
+      font-weight: 500;
+    }
+
+    /* Certifications Grid */
+    .cert-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .cert-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      background: #f8fafc;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+    }
+
+    .cert-info h4 {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .cert-info p {
+      font-size: 12px;
+      color: #64748b;
+    }
+
+    .cert-date {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #0284c7;
+      white-space: nowrap;
+    }
+
+    /* Awards */
+    .award-item {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 10px;
+      align-items: flex-start;
+    }
+
+    .award-icon {
+      color: #d97706;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: #fff;
+        color: #000;
+        font-size: 12px;
+      }
+
+      .cv-actions-bar {
+        display: none !important;
+      }
+
+      .resume-container {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border: none;
+        max-width: 100%;
+      }
+
+      .section-title {
+        border-bottom-color: #333;
+      }
+
+      .unitree-feature {
+        background: #fafafa !important;
+        border: 1px solid #333 !important;
+      }
+
+      .unitree-badge {
+        background: #333 !important;
+        color: #fff !important;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit !important;
+      }
+
+      .page-break {
+        page-break-before: always;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .resume-container {
+        padding: 24px;
+        margin: 16px;
+      }
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+      .header-main h1 {
+        font-size: 26px;
+      }
+      .cv-actions-bar {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+      }
+      .action-group {
+        justify-content: space-between;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Action Navigation -->
+  <div class="cv-actions-bar">
+    <a href="index.html" class="btn-back">
+      <i data-lucide="arrow-left"></i> Return to Portfolio
+    </a>
+    <div class="action-group">
+      <button onclick="window.print()" class="btn-print">
+        <i data-lucide="printer"></i> Print / Save as PDF
+      </button>
+      <a href="Anuj Professional CV.pdf" download class="btn-pdf">
+        <i data-lucide="download"></i> Original PDF
+      </a>
+    </div>
+  </div>
+
+  <main class="resume-container">
+    <!-- Resume Header -->
+    <header class="resume-header">
+      <div class="header-main">
+        <h1>Anuj Chaudhary</h1>
+        <div class="subtitle">Robotics, Humanoid & UAV Systems Engineer | R&D Specialist</div>
+        <div class="header-contact">
+          <span><i data-lucide="mail"></i> <a href="mailto:anujchaudhary508@gmail.com">anujchaudhary508@gmail.com</a></span>
+          <span><i data-lucide="phone"></i> +977-9817432137 / +977-9866582892</span>
+          <span><i data-lucide="map-pin"></i> Lalitpur / Dang, Nepal</span>
+          <span><i data-lucide="globe"></i> <a href="https://anujchaudhary.com.np">anujchaudhary.com.np</a></span>
+          <span><i data-lucide="linkedin"></i> <a href="https://www.linkedin.com/in/anuj-chaudhary-1424b9237" target="_blank">linkedin.com/in/anuj-chaudhary</a></span>
+          <span><i data-lucide="github"></i> <a href="https://github.com/D4YDR3AM3R" target="_blank">github.com/D4YDR3AM3R</a></span>
+        </div>
+      </div>
+      <div class="header-badge">
+        <div class="gold-badge">
+          <i data-lucide="award"></i> Gold Medalist (China 2024)
+        </div>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section class="resume-section">
+      <h2 class="section-title"><i data-lucide="user"></i> Professional Profile</h2>
+      <p class="summary-text">
+        Electronics and Communication Engineering graduate with 3+ years of specialized experience in robotics, humanoid autonomy, and unmanned aerial vehicles (UAVs). Currently serving as <strong>Research and Development Associate and Drone Specialist at the Robotics Association of Nepal (RAN)</strong>. Recognized with an international <strong>Gold Medal in UAV Maintenance at the 2nd Belt and Road International Skills Competition in Chongqing, China (2024)</strong>. Hands-on pioneer in humanoid robotics in Nepal, having integrated offline wake-word LLM speech engines and ROS2 vision-gesture planning pipelines onto the <strong>Unitree G1 EDU humanoid</strong> and quadruped platforms. Certified Unitree Robotics Engineer qualified in SDK software control, SLAM navigation, reinforcement learning locomotion, and hardware diagnostics. Proven track record directing heavy-lift firefighting and agricultural reforestation UAVs, mentoring national teams at the FIRST Global Challenge and UN AI for Good (2nd Place), and training 800+ students across Nepal.
+      </p>
+    </section>
+
+    <!-- Unitree Robotics Training & Certification Spotlight -->
+    <section class="resume-section">
+      <div class="unitree-feature">
+        <div class="unitree-feature-header">
+          <div class="item-title" style="color: #0369a1; font-size: 15px;">
+            Unitree Overseas Partner Technical Training Camp Certification
+          </div>
+          <span class="unitree-badge">Certified Qualification</span>
+        </div>
+        <div class="item-company">MAW Vriddhi Future Tech Pvt. Ltd &amp; Yushu Technology Co., Ltd. (Unitree Robotics) &bull; Issued October 27, 2026</div>
+        <p style="font-size: 12.5px; color: #334155; margin-bottom: 8px;">
+          Completed an intensive 6-day hands-on engineering qualification covering the full lineup of Unitree advanced robots: <strong>G1 EDU Humanoid, Go2 / A2 / As2 Quadrupeds, H2 Humanoid, and R1</strong>. Officially certified for product delivery, SDK robotics programming, and technical maintenance.
+        </p>
+        <ul class="bullet-list" style="margin-top: 0;">
+          <li><strong>SDK Control &amp; Autonomous Programming:</strong> Interfaced with low-level motor actuation, IMU telemetry, and high-level behavioral APIs in C++ and Python.</li>
+          <li><strong>SLAM &amp; Autonomous Navigation:</strong> Configured 3D LiDAR mapping, obstacle avoidance, and point-to-point path planning in dynamic environments.</li>
+          <li><strong>Reinforcement Learning Locomotion:</strong> Analyzed sim-to-real transfer and neural locomotion policies enabling rugged bipedal and quadruped stability.</li>
+          <li><strong>Field Maintenance &amp; Teleoperation:</strong> Practiced joint calibration, servo repairs, hardware troubleshooting, and low-latency teleoperation data capture.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="resume-section">
+      <h2 class="section-title"><i data-lucide="briefcase"></i> Professional Experience</h2>
+      
+      <div class="timeline-item">
+        <div class="item-header">
+          <div class="item-title">Research and Development Associate &amp; Drone Specialist</div>
+          <div class="item-date">July 2024 &ndash; Present</div>
+        </div>
+        <div class="item-company">Robotics Association of Nepal (RAN) &bull; Lalitpur, Nepal</div>
+        <ul class="bullet-list">
+          <li><strong>Unitree G1 EDU Humanoid AI:</strong> Deployed a local offline language model with custom wake-word recognition, allowing natural conversation without an internet connection.</li>
+          <li><strong>Gesture-Controlled Humanoid Pipeline:</strong> Developing real-time ROS2 gesture recognition using G1 stereo cameras to translate greetings, waves, and instructions directly into humanoid physical movements.</li>
+          <li><strong>Simulation &amp; Autonomy:</strong> Designed and simulated autonomous robotic missions using ROS2, RViz, and Gazebo before deploying code to physical platforms.</li>
+          <li><strong>Heavy-Lift &amp; Specialized UAVs:</strong> Engineered, built, and flight-tested mission-specific drones including a 30kg payload vertical tilt-spray firefighting drone and agricultural reforestation systems; logged over 100+ flight hours.</li>
+          <li><strong>Multi-Robot Systems:</strong> Conducted coordinated experiments pairing the Unitree G02 quadruped with aerial drones for collaborative inspection and mapping.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <div class="item-title">Engineering Intern</div>
+          <div class="item-date">July 2023 &ndash; July 2024</div>
+        </div>
+        <div class="item-company">Robotics Association of Nepal (RAN) &bull; Lalitpur, Nepal</div>
+        <ul class="bullet-list">
+          <li>Built 30+ robotics projects and assembled 8+ customized UAV systems covering airframe geometry, avionics, telemetry, and power distribution.</li>
+          <li>Designed custom PCBs in EasyEDA and prototyped mechanical parts using SolidWorks and fused filament 3D printing.</li>
+          <li>Developed 3 autonomous ground rovers featuring line-following and real-time ultrasonic/LiDAR obstacle avoidance.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <div class="item-title">Robotics Instructor &amp; STEM Workshop Lead</div>
+          <div class="item-date">July 2023 &ndash; Present</div>
+        </div>
+        <div class="item-company">Freelance / Robotics Association of Nepal &bull; Nationwide, Nepal</div>
+        <ul class="bullet-list">
+          <li>Instructed 800+ students (grades 5&ndash;12 and undergraduates) across Nepal in robotics fundamentals, C++ embedded coding, drone piloting, and sensor integration.</li>
+          <li>Led technical training sessions with up to 200+ participants per venue including NAST, Khwopa College, and international youth symposiums.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="resume-section">
+      <h2 class="section-title"><i data-lucide="graduation-cap"></i> Education</h2>
+      <div class="timeline-item">
+        <div class="item-header">
+          <div class="item-title">Bachelor of Engineering in Electronics and Communication Engineering</div>
+          <div class="item-date">Jan 2020 &ndash; 2025</div>
+        </div>
+        <div class="item-company">Cosmos College of Management and Technology &bull; Chapagaun, Nepal</div>
+        <ul class="bullet-list">
+          <li><strong>Capstone Final Project &ndash; SmartSort (AI 6-Axis Robotic Arm):</strong> Designed full 6-DOF robotic manipulator in SolidWorks; 3D printed mechanical linkages, wired Arduino inverse kinematics control, and trained a real-time YOLOv8 object recognition model on a Raspberry Pi linked to Firebase cloud storage. Reduced manual inventory classification effort by 30%.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Key Projects -->
+    <section class="resume-section">
+      <h2 class="section-title"><i data-lucide="cpu"></i> Flagship Engineering Projects</h2>
+      
+      <div class="timeline-item">
+        <div class="item-header">
+          <div class="item-title">Gesture &amp; Voice-Controlled Humanoid Robot (Unitree G1 EDU)</div>
+          <div class="item-date">2025 &ndash; Present</div>
+        </div>
+        <div class="item-company">Lead Robotics Engineer &bull; RAN Lab</div>
+        <ul class="bullet-list">
+          <li>Trained a low-latency vision classification model on custom hand gesture datasets captured via the G1's stereo camera rig.</li>
+          <li>Integrated output with a ROS2 action server to command coordinated whole-body kinematic motions with zero manual controller intervention.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <div class="item-title">Firefighting Heavy-Lift Drone with Vertical Tilt-Spray</div>
+          <div class="item-date">2024</div>
+        </div>
+        <div class="item-company">Avionics &amp; Airframe Designer &bull; RAN</div>
+        <ul class="bullet-list">
+          <li>Constructed a heavy-lift multirotor platform rated for 30kg payload equipped with a servo-actuated vertical nozzle tilt mechanism for targeted high-pressure fire suppression in restricted spaces.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <div class="item-title">Seed Bombing Aerial Reforestation UAV &ndash; Pokhara Landslides</div>
+          <div class="item-date">2024</div>
+        </div>
+        <div class="item-company">Lead Pilot &amp; Mechanism Designer &bull; NGO Partnership</div>
+        <ul class="bullet-list">
+          <li>Engineered an automated centrifugal seed-dropping mechanism for a DJI Matrice 300 to disperse encapsulated &ldquo;Utis&rdquo; seeds over inaccessible landslide terrains in Pokhara, achieving a verified 60% germination rate.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="resume-section">
+      <h2 class="section-title"><i data-lucide="wrench"></i> Technical Skills Matrix</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-category-title"><i data-lucide="bot"></i> Robotics &amp; Humanoids</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Unitree G1 EDU</span>
+            <span class="skill-tag">Unitree Go2 / A2</span>
+            <span class="skill-tag">ROS2 Humble</span>
+            <span class="skill-tag">RViz &amp; Gazebo</span>
+            <span class="skill-tag">6-DOF Manipulators</span>
+            <span class="skill-tag">Forward &amp; Inverse Kinematics</span>
+            <span class="skill-tag">SLAM Navigation</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title"><i data-lucide="plane"></i> UAV &amp; Avionics</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Multirotor &amp; Fixed-Wing Design</span>
+            <span class="skill-tag">100+ Flight Hours</span>
+            <span class="skill-tag">DJI Matrice 300</span>
+            <span class="skill-tag">Mission Planner / QGroundControl</span>
+            <span class="skill-tag">Heavy-Lift Payloads</span>
+            <span class="skill-tag">UAV Maintenance &amp; Tuning</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title"><i data-lucide="eye"></i> AI, Vision &amp; Software</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">YOLOv8</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">Local LLM Deployment</span>
+            <span class="skill-tag">Wake-Word Detection</span>
+            <span class="skill-tag">Git / GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-title"><i data-lucide="circuit-board"></i> Hardware &amp; Prototyping</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Arduino</span>
+            <span class="skill-tag">Raspberry Pi</span>
+            <span class="skill-tag">EasyEDA PCB Design</span>
+            <span class="skill-tag">SolidWorks CAD</span>
+            <span class="skill-tag">3D Printing (FDM)</span>
+            <span class="skill-tag">Actuators &amp; Sensors</span>
+            <span class="skill-tag">SIM800L IoT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards & Honors -->
+    <section class="resume-section">
+      <h2 class="section-title"><i data-lucide="trophy"></i> Honors &amp; Awards</h2>
+      <div class="award-item">
+        <i data-lucide="medal" class="award-icon"></i>
+        <div>
+          <div class="item-title">Gold Medal &ndash; UAV Maintenance &amp; Assembly</div>
+          <div class="item-company">The 2nd Belt and Road International Skills Competition &bull; Chongqing, China (June 2024)</div>
+          <div style="font-size: 12.5px; color: #475569;">Competed internationally representing Nepal against skilled aerospace technicians across participating countries, mastering precision UAV troubleshooting and assembly under strict international standards.</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <i data-lucide="award" class="award-icon" style="color: #0284c7;"></i>
+        <div>
+          <div class="item-title">Bronze Medal &ndash; District-Level STEAM Innovation Competition</div>
+          <div class="item-company">Project: Smart Automated Home System &bull; 2019</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="resume-section">
+      <h2 class="section-title"><i data-lucide="file-check"></i> Professional Certifications</h2>
+      <div class="cert-list">
+        <div class="cert-card">
+          <div class="cert-info">
+            <h4>Certificate of Qualification: Unitree Robotics Technical Training Camp</h4>
+            <p>MAW Vriddhi Future Tech &amp; Yushu Technology Co., Ltd. (Unitree Robotics) &bull; ID: UCQ-2026-1027037</p>
+          </div>
+          <div class="cert-date">Oct 2026</div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-info">
+            <h4>Unmanned Aircraft Trainer Course (Theory &amp; Practical)</h4>
+            <p>Nepal Drone Ecosystem Acceleration Program (DEAP) &bull; World Bank &amp; KWPF Supported &bull; Khwopa Eng. College</p>
+          </div>
+          <div class="cert-date">June 2025</div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-info">
+            <h4>Basic Unmanned Aircraft Operations Course (Cat A &amp; B, VLOS)</h4>
+            <p>Nepal Drone Ecosystem Acceleration Program (DEAP) &bull; DroneAcharya Aerial Innovations &amp; Geovation Nepal</p>
+          </div>
+          <div class="cert-date">June 2025</div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-info">
+            <h4>Certificate of Appreciation: Mentor for &ldquo;Girls in Robotics &amp; AI&rdquo;</h4>
+            <p>Miss-Tech: Robotics Association of Nepal in collaboration with UK Aid</p>
+          </div>
+          <div class="cert-date">August 2024</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mentorship & Community Leadership -->
+    <section class="resume-section">
+      <h2 class="section-title"><i data-lucide="users"></i> Mentorship &amp; Community Leadership</h2>
+      <ul class="bullet-list">
+        <li><strong>Mentor, FIRST Global Challenge 2025:</strong> Coached the national student robotics team representing Nepal, finishing 38th internationally out of 181 participating countries.</li>
+        <li><strong>Mentor, Team Nepal &ndash; UN AI for Good Youth Challenge 2025:</strong> Mentored junior innovators in autonomous robotics design, clinching <strong>2nd Place globally in Junior Category</strong> and 3rd Place in Senior Category.</li>
+        <li><strong>Head Judge, AI for Good National Robotics Challenge 2025:</strong> Evaluated 30+ innovative solutions developed by high-school and undergraduate student teams.</li>
+        <li><strong>Co-Lead, Yantra 9.0 Robotics Competition:</strong> Co-organized the &ldquo;Garbage to Gold&rdquo; national robotics challenge with 200+ participants, defining official competition arena specifications and autonomous sorting rulebooks.</li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
